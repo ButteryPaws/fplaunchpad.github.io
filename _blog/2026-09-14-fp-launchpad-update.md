@@ -18,15 +18,13 @@ Five months after the [FP Launchpad kickoff on 13 April]({% post_url 2026-03-30-
 - Coding agents are helping us build implementations and proofs, while we investigate how to improve human understanding of machine-written theorems and proofs.
 - We have [six talks and workshops accepted](/indiafoss-2026/) at [IndiaFOSS](https://fossunited.org/indiafoss/2026) and are preparing to host [India's first major OCaml conference]({% post_url 2026-09-07-fun-ocaml-2027-bangalore %}) in January.
 
-Here is the progress across the three pillars of our [charter](/charter/): Education and Training, Research, and Systems and Community.
-
 ## Education and Training
 
 Learning to build and maintain systems takes time, access to substantial projects, and people to learn from. Our aim is to give more early-career researchers in India that opportunity through full-time research positions and fellowships.
 
 ### The team
 
-In March, we [invited applications for our first post-baccalaureate fellowship]({% post_url 2026-03-06-applications-open-post-bacc-fellowship %}). Fellows work full-time at IIT Madras, developing their research interests through systems projects and open-source contributions. They primarily use [OCaml](https://ocaml.org/), an industrial-strength functional-first programming language, and [OxCaml](https://oxcaml.org/), which extends OCaml with features for safe systems programming.
+In March, we [invited applications for our first post-baccalaureate fellowship]({% post_url 2026-03-06-applications-open-post-bacc-fellowship %}). Fellows work full-time at IIT Madras, developing their research interests through systems projects and open-source contributions. They primarily use [OCaml](https://ocaml.org/), a functional-first programming language, and [OxCaml](https://oxcaml.org/), which extends OCaml with features for safe systems programming.
 
 The fellowship received **48 applications**. We shortlisted **12 candidates**, with a selection process that included two rounds of interviews. We made **seven offers**, and **six fellows have joined**:
 
@@ -75,7 +73,7 @@ We are adapting the textbook for people trying OCaml in a shorter, guided sessio
 
 Smayan contributed interactive [Game of Life](https://fplaunchpad.org/indiafoss-2026-ocaml-workshop/05-game-of-life.html) and [Tic-Tac-Toe](https://fplaunchpad.org/indiafoss-2026-ocaml-workshop/04-tic-tac-toe.html) exercises. Participants can use the final part of the session to build one of the games. The [workshop repository](https://github.com/fplaunchpad/indiafoss-2026-ocaml-workshop) is available for anyone who wants to work through the material or use it in another setting.
 
-The workshop material also includes an [OCaml Joy lab](https://fplaunchpad.org/indiafoss-2026-ocaml-workshop/06-joy.html), where learners create pictures by composing shapes and transformations. Sudha Parimala created the [library](https://github.com/sudha247/ocaml-joy), and Kaustubh has contributed since 2023. He also used it to illustrate his [Tamil crash course](https://kaustubh.page/learn-tamil/). Sudha started as a research engineer at IIT Madras in 2019 before moving to [Tarides](https://tarides.com/). Her library now helps newcomers learn OCaml, the kind of path we hope FP Launchpad opens for more people.
+The workshop material also includes an [OCaml Joy lab](https://fplaunchpad.org/indiafoss-2026-ocaml-workshop/06-joy.html), where learners create pictures by composing shapes and transformations. Sudha Parimala created the [library](https://github.com/sudha247/ocaml-joy), and Kaustubh has contributed since 2023. He also used it to illustrate his [Tamil crash course](https://kaustubh.page/learn-tamil/). Sudha started as a research engineer at IIT Madras in 2019 before moving to [Tarides](https://tarides.com/). Her library now helps newcomers learn OCaml.
 
 ## Research
 
@@ -93,7 +91,7 @@ The [implementation and proofs are public](https://github.com/FStarLang/pulse-ve
 
 For a collector to be useful, we also need to understand its performance. OCaml's existing collector is highly tuned and closely tied to the runtime, which makes trying a different design a substantial engineering task. Our [OCaml–MMTk integration](https://github.com/fplaunchpad/ocaml-mmtk), which Pragyansh now leads, addresses this by connecting OCaml to the [Memory Management Toolkit (MMTk)](https://www.mmtk.io/), a framework with several collectors to experiment with.
 
-The surprise has been how far we could get with coding agents on that interface. Using coding agents, we went from the first backend to an OCaml-like collector, **Bactrian**, running inside MMTk in roughly two weeks. Bactrian resembles OCaml's own collector so we can distinguish the cost of the interface from the choice of collection algorithm. The interface is now fairly feature complete, including finalisers, weak references, and ephemerons: features that control cleanup and whether references keep objects alive. We use OCaml's existing test suite to check it as it develops.
+Using coding agents, we went from the first backend to an OCaml-like collector, **Bactrian**, running inside MMTk in roughly two weeks. Bactrian resembles OCaml's own collector so we can distinguish the cost of the interface from the choice of collection algorithm. The interface now supports finalisers, weak references, and ephemerons: features that control cleanup and whether references keep objects alive. We use OCaml's existing test suite to check it as it develops.
 
 Performance optimisation is still work in progress. Agentic performance tuning has been challenging: it requires repeated measurements across workloads and memory settings to establish whether a change improves the balance between memory use and runtime. Since the initial build, Pragyansh has been adding instrumentation and tuning Bactrian. His experiments compare CPU cost, collection pauses, memory use, and how runtime changes as more memory is made available. There is still memory overhead to account for, and the memory-versus-runtime tradeoff does not yet match stock OCaml. Pragyansh will present the work at [Innovations in Compiler Technology (IICT) 2026](https://compilertech.org/), on 2–3 October at IISc, Bengaluru.
 
@@ -148,7 +146,7 @@ FP Launchpad will host [**FUN OCaml on 25–26 January 2027**](https://fun-ocaml
 
 ## Looking ahead
 
-We will open the women's fellowship round soon. Over the next few months, we look forward to making progress on these projects and sharing what we learn. We are also planning a winter school on programming languages at IIT Madras in December, with programme details to follow. We hope to meet many of you there, at IndiaFOSS and IICT, or at FUN OCaml in January.
+We will open the women's fellowship round soon. We are also planning a winter school on programming languages at IIT Madras in December, with programme details to follow. We hope to meet many of you there, at IndiaFOSS and IICT, or at FUN OCaml in January.
 
 If you teach programming, try the [OCaml textbook](https://fplaunchpad.org/ocaml_nptel/) or reuse the [workshop material](https://github.com/fplaunchpad/indiafoss-2026-ocaml-workshop). We also welcome [FUN OCaml proposals](https://cfp.fun-ocaml.com/fun-ocaml-2027-bengaluru/cfp) by 30 September. To hear about future updates, fellowship openings, and events, [subscribe to our newsletter](mailto:contact@fplaunchpad.org?subject=Subscribe%20to%20Newsletter) by emailing contact@fplaunchpad.org with the subject “Subscribe to Newsletter”.
 
