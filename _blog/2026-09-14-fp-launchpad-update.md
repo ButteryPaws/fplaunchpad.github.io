@@ -4,7 +4,7 @@ title: "FP Launchpad update: research, teaching, and community"
 date: 2026-09-14
 author: KC Sivaramakrishnan
 permalink: /blog/2026-09-fp-launchpad-update/
-published: false
+published: true
 blurb: >-
   Six fellows have joined FP Launchpad. An update on our research,
   OCaml NPTEL course, environmental software projects, and upcoming events.
@@ -12,7 +12,11 @@ blurb: >-
 
 Five months after the [FP Launchpad kickoff on 13 April]({% post_url 2026-03-30-fp-launchpad-kickoff %}), here is where things stand.
 
-Six [fellows](/team/) have joined from a pool of 48 applicants, and our [online OCaml course](https://onlinecourses.nptel.ac.in/e-learning/course/noc26_cs90) now has about 1,200 students. We also hosted eight summer interns and celebrated two PhD graduations. Research highlights include two papers, [FIDES](https://kcsrk.info/papers/fides_asiaccs_2026.pdf) and [Sal](https://kcsrk.info/papers/sal_jan26.pdf), and work with Microsoft Research on a [verified generational garbage collector](https://risemsr.github.io/blog/2026-08-21-gc/) integrated with OCaml's bytecode runtime. Coding agents are helping us build implementations and proofs, while we investigate how to improve human understanding of machine-written theorems and proofs. We have [six talks and workshops accepted](/indiafoss-2026/) at [IndiaFOSS](https://fossunited.org/indiafoss/2026) and are preparing to host [India's first major OCaml conference]({% post_url 2026-09-07-fun-ocaml-2027-bangalore %}) in January.
+- Six [fellows](/team/) have joined from a pool of 48 applicants. We also hosted eight summer interns and celebrated two PhD graduations.
+- Our [online OCaml course](https://onlinecourses.nptel.ac.in/e-learning/course/noc26_cs90) now has about 1,200 students enrolled.
+- Research highlights include two papers, [FIDES](https://kcsrk.info/papers/fides_asiaccs_2026.pdf) and [Sal](https://kcsrk.info/papers/sal_jan26.pdf), and work with Microsoft Research on a [verified generational garbage collector](https://risemsr.github.io/blog/2026-08-21-gc/) integrated with OCaml's bytecode runtime.
+- Coding agents are helping us build implementations and proofs, while we investigate how to improve human understanding of machine-written theorems and proofs.
+- We have [six talks and workshops accepted](/indiafoss-2026/) at [IndiaFOSS](https://fossunited.org/indiafoss/2026) and are preparing to host [India's first major OCaml conference]({% post_url 2026-09-07-fun-ocaml-2027-bangalore %}) in January.
 
 Here is the progress across the three pillars of our [charter](/charter/): Education and Training, Research, and Systems and Community.
 
@@ -27,7 +31,7 @@ In March, we [invited applications for our first post-baccalaureate fellowship](
 The fellowship received **48 applications**. We shortlisted **12 candidates**, with a selection process that included two rounds of interviews. We made **seven offers**, and **six fellows have joined**:
 
 - **[Pragyansh Chaturvedi](https://people.ubuntu.com/~r41k0u/portfolio/)**, from IIT Roorkee, is an Ubuntu maintainer with experience in open-source systems development.
-- **[Avik Shakhari](https://github.com/recluse099)**, from Chennai Mathematical Institute, is interested in type theory, functional programming, and formal methods.
+- **[Avik Shakhari](https://github.com/recluse099)**, from Chennai Mathematical Institute, is interested in type theory and formal methods, and works on programming-language approaches to security.
 - **[Smayan Agarwal](https://github.com/SmayanAgarwal)**, from Ashoka University, combines interests in mathematics and programming languages with a focus on social good.
 - **[Dhruv Piyush Rambhia](https://github.com/ButteryPaws)**, from IIT Bombay, joins after working in finance and is exploring security and low-level systems.
 - **[Kaustubh Maske Patil](https://kaustubh.page)**, from BITS Pilani, is a generalist programmer with interests in free and open-source software, self-hosting, and functional programming.
@@ -35,7 +39,7 @@ The fellowship received **48 applications**. We shortlisted **12 candidates**, w
 
 We were disappointed that none of the candidates shortlisted in this round were women. We will soon open a focused application round for the FP Launchpad fellowship specifically for women.
 
-**[Akhil Tulluri](/team/)** has joined as a full-time researcher. Following his master's studies at Northeastern University, he is working on the performance and formal verification of OCaml's garbage collectors, alongside [Sheera Shamsu](/team/).
+**[Akhil Tulluri](/team/)** has joined as a full-time researcher. Following his master's studies at Northeastern University, he is working on the performance and formal verification of OCaml's garbage collectors, alongside [Sheera Shamsu](/team/), who completed her PhD in July.
 
 **[Vimala Soundarapandian](https://sites.google.com/view/vimala90/)** has joined as a Research Scientist after completing her PhD. Akhil, Vimala, and the six fellows join existing research staff **[Alina Banerjee](https://www.blue-indus.in/)** and **[Navaneeth Nambiar](https://github.com/curche)**.
 
@@ -43,7 +47,7 @@ We were disappointed that none of the candidates shortlisted in this round were 
 
 ### Summer internships
 
-Internships give students a chance to try research through a focused project. We hosted eight interns this summer, including three through IIT Madras's Summer Fellowship Programme.
+Internships give students a chance to try research through a focused project. We hosted eight interns this summer, including three through IIT Madras's Summer Fellowship Programme. Here are some of their projects.
 
 Anubhav Paul, an undergraduate at IIT Delhi, built [Learn2Lean](https://unordinary19.github.io/Lean_formalization/), an interactive introduction to formal verification through elementary arithmetic. Starting with familiar algorithms such as addition and long division lets learners concentrate on why an algorithm works and how to express that argument in [Lean](https://lean-lang.org/). The book pairs explanations and proofs with step-by-step visualisations and exercises; its [source is available](https://github.com/fplaunchpad/Learn2Lean).
 
@@ -59,11 +63,11 @@ To reach beyond the fellowship, we need teaching material that people can use wh
 
 Our online course, [*Functional Programming with OCaml*](https://onlinecourses.nptel.ac.in/e-learning/course/noc26_cs90), has about **1,200 students**. It offers 36 hours of recorded lectures, with the option to take an in-person, proctored exam for certification. I teach the course, with PhD student Sai Venkata Krishnan and FP Launchpad Research Scientist Vimala Soundarapandian as teaching assistants.
 
-Learning a language requires trying programs and seeing what happens when you change them. In our [interactive textbook](https://fplaunchpad.org/ocaml_nptel/), you can edit and run OCaml and OxCaml examples beside the explanation, without first installing a compiler. Quizzes and exercises let you check your understanding. The twelve-week material develops functions, data, modules, and testing before moving to systems topics, including OxCaml and MirageOS. I describe the approach in [*An O(x)Caml book that runs*](https://kcsrk.info/ocaml/oxcaml/teaching/nptel/llm/2026/06/13/an-oxcaml-book-that-runs/). I will also present this work at IndiaFOSS on [26 September](https://fossunited.org/dashboard/schedule/indiafoss/2026), in my talk [*Textbooks that run: interactive, zero-install CS education in the browser*](https://fossunited.org/c/indiafoss/2026/cfp/8s4g5qj3oq).
+Learning a language requires trying programs and seeing what happens when you change them. In our [interactive textbook](https://fplaunchpad.org/ocaml_nptel/), you can edit and run OCaml and OxCaml examples beside the explanation, without first installing a compiler. Quizzes and exercises let you check your understanding. The twelve-week material develops functions, data, modules, and testing before moving to systems topics, including OxCaml and MirageOS. I describe the approach in [*An O(x)Caml book that runs*](https://kcsrk.info/ocaml/oxcaml/teaching/nptel/llm/2026/06/13/an-oxcaml-book-that-runs/). I will also present this work at IndiaFOSS on [26 September at 10:45 in Hall 1](https://fossunited.org/dashboard/schedule/indiafoss/2026), in my talk [*Textbooks that run: interactive, zero-install CS education in the browser*](https://fossunited.org/c/indiafoss/2026/cfp/8s4g5qj3oq).
 
 The fellows use the same textbook in their training and contribute corrections as they work through it. The [source is open](https://github.com/fplaunchpad/ocaml_nptel), so teachers and learners elsewhere can use it and contribute fixes.
 
-To attract the next cohort of researchers to FP Launchpad, we have announced **seven paid Summer 2027 internships** for students from the course: five for the top certified students, plus two additional places for top certified women students.
+To attract the next cohort of researchers to FP Launchpad, we have announced **[seven paid Summer 2027 internships](https://www.linkedin.com/posts/cystariitm_iitmadras-nptel-fplaunchpad-activity-7475033218094768128-BwDM)** for students from the course: five for the top certified students, plus two additional places for top certified women students.
 
 ### OCaml workshops
 
@@ -75,7 +79,7 @@ The workshop material also includes an [OCaml Joy lab](https://fplaunchpad.org/i
 
 ## Research
 
-Coding agents can help write implementations and proofs, but we still have to decide what to ask them to establish. This gives us a new way to pursue the charter's research goal: compilers, runtime systems, and security mechanisms with guarantees we can understand and maintain.
+A central research question for FP Launchpad is how people can choose and understand the properties established by machine-written theorems and proofs. We are exploring this question as we pursue the charter's research goal: compilers, runtime systems, and security mechanisms with guarantees we can understand and maintain.
 
 ### Garbage collection
 
@@ -89,7 +93,7 @@ The [implementation and proofs are public](https://github.com/FStarLang/pulse-ve
 
 For a collector to be useful, we also need to understand its performance. OCaml's existing collector is highly tuned and closely tied to the runtime, which makes trying a different design a substantial engineering task. Our [OCaml–MMTk integration](https://github.com/fplaunchpad/ocaml-mmtk), which Pragyansh now leads, addresses this by connecting OCaml to the [Memory Management Toolkit (MMTk)](https://www.mmtk.io/), a framework with several collectors to experiment with.
 
-The surprise has been how far we could get with coding agents on that interface. Using coding agents, we went from the first backend to an OCaml-like collector, **Bactrian**, running inside MMTk in roughly two weeks. Bactrian resembles OCaml's own so we can distinguish the cost of the interface from the choice of collection algorithm. The interface is now fairly feature complete, including finalisers, weak references, and ephemerons: features that control cleanup and whether references keep objects alive. We use OCaml's existing test suite to check it as it develops.
+The surprise has been how far we could get with coding agents on that interface. Using coding agents, we went from the first backend to an OCaml-like collector, **Bactrian**, running inside MMTk in roughly two weeks. Bactrian resembles OCaml's own collector so we can distinguish the cost of the interface from the choice of collection algorithm. The interface is now fairly feature complete, including finalisers, weak references, and ephemerons: features that control cleanup and whether references keep objects alive. We use OCaml's existing test suite to check it as it develops.
 
 Performance optimisation is still work in progress. Agentic performance tuning has been challenging: it requires repeated measurements across workloads and memory settings to establish whether a change improves the balance between memory use and runtime. Since the initial build, Pragyansh has been adding instrumentation and tuning Bactrian. His experiments compare CPU cost, collection pauses, memory use, and how runtime changes as more memory is made available. There is still memory overhead to account for, and the memory-versus-runtime tradeoff does not yet match stock OCaml. Pragyansh will present the work at [Innovations in Compiler Technology (IICT) 2026](https://compilertech.org/), on 2–3 October at IISc, Bengaluru.
 
@@ -99,9 +103,9 @@ To evaluate these tradeoffs, we need representative workloads. [Tarides](https:/
 
 Replicated data types let different copies of data change independently and merge later. Having those copies agree is useful, but we also need to know that their merged result preserves the intended behaviour of the application. My April keynote at the Workshop on Principles and Practice of Consistency for Distributed Data (PaPoC), and accompanying post [*From Convergence to Confidence*](https://kcsrk.info/verification/rdts/lean/2026/04/28/from-convergence-to-confidence/), examine what it means to choose the right property to prove.
 
-Vimala Soundarapandian also graduated with a PhD in July, for her work on verifying replicated data types. Our paper [*Sal: Multi-modal Verification of Replicated Data Types*](https://kcsrk.info/papers/sal_jan26.pdf), by FP Launchpad alumnus Pranav Ramesh, Vimala, and me, was presented at PaPoC in April. [Sal](https://fplaunchpad.org/sal/) uses [Lean](https://lean-lang.org/), a programming language and proof assistant, to check correctness properties. It combines automated proofs with testing and visual counterexamples that help developers understand failures. We have now verified non-trivial implementations of collaborative editing algorithms such as Replicated Growable Array (RGA), Fugue, FugueMax, Peritext, and AegisSheet. Harisankar's summer project illustrates why this matters: his initial design satisfied its proven property, yet deleting one character could reorder the remaining text.
+Vimala Soundarapandian also graduated with a PhD in July, for her work on verifying replicated data types. Our paper [*Sal: Multi-modal Verification of Replicated Data Types*](https://kcsrk.info/papers/sal_jan26.pdf), by FP Launchpad alumnus Pranav Ramesh, Vimala, and me, was presented at PaPoC in April. [Sal](https://fplaunchpad.org/sal/) uses [Lean](https://lean-lang.org/), a programming language and proof assistant, to check correctness properties. It combines automated proofs with testing and visual counterexamples that help developers understand failures. We have now verified non-trivial implementations of collaborative editing algorithms such as [Replicated Growable Array (RGA)](https://doi.org/10.1016/j.jpdc.2010.12.006), [Fugue](https://arxiv.org/abs/2305.00583), [FugueMax](https://arxiv.org/abs/2305.00583), [Peritext](https://www.inkandswitch.com/peritext/), and [AegisSheet](https://doi.org/10.1145/3806077.3806695). Harisankar's summer project illustrates why this matters: his initial design satisfied its proven property, yet deleting one character could reorder the remaining text.
 
-Vimala and PhD student Durwasa Chakraborty have also applied Lean to query translation: their QueryBridge project, which studies correctness of translation between JSON and SQL queries, [won second prize at the LeanLang hackathon at IISc](/blog/2026-05-08-querybridge-leanlang-hackathon/).
+Vimala and PhD student Durwasa Chakraborty have also applied Lean to query translation: their QueryBridge project, which studies correctness of translation between JSON and SQL queries, [won second prize at the LeanLang hackathon at IISc]({% link _blog/2026-05-08-querybridge-leanlang-hackathon.md %}).
 
 The question of what a guarantee means is also central to a new project with [Pramaana Labs](https://www.pramaanalabs.ai/) on explainable, verifiable cryptography. Avik and MS student Vishakh Desai are working on it with IIT Madras faculty member [Aishwarya Thiruvengadam](https://cystar.iitm.ac.in/aishwarya-inner-people/) and me. Starting with voting protocols, we plan to explain security guarantees by showing what happens when a protocol or its assumptions change. The goal is to help an auditor judge whether a formal guarantee covers the property they care about.
 
@@ -113,9 +117,9 @@ Some applications need protection even when a component goes wrong. OCaml progra
 
 Our paper [*FIDES: End-to-end Compartments for Mixed-language Systems*](https://doi.org/10.1145/3779208.3805988), by Sai Venkata Krishnan, Arjun Menon, Chester Rebeiro, and me, has been published at the ACM Asia Conference on Computer and Communications Security (AsiaCCS) 2026. FIDES restricts which code and data each component can access, while supporting OCaml features such as functions passed as values and exceptions alongside C code. The [paper](https://kcsrk.info/papers/fides_asiaccs_2026.pdf) describes hardware and compiler support on a modified Shakti RISC-V processor, evaluated with MirageOS applications. Dhruv and Prakhand Patel, an MTech student at IIT Madras, are investigating how to prove FIDES's security guarantees in Lean, with the longer-term aim of extending the verification down to the Shakti hardware designs.
 
-Avik and intern Anirudh Sudhir are investigating whether we can [implement cryptographic algorithms directly in OxCaml](https://github.com/fplaunchpad/oxcaml-crypto-study), retaining the benefits of a high-level language without sacrificing performance. This could also open a route to formally verifying these implementations using frameworks such as [Hax](https://github.com/cryspen/hax) and [Aeneas](https://aeneasverif.github.io/), which currently target Rust and would need to be extended to support OxCaml.
+Avik and Anirudh Sudhir, who joined as an intern in August, are investigating whether we can [implement cryptographic algorithms directly in OxCaml](https://github.com/fplaunchpad/oxcaml-crypto-study), retaining the benefits of a high-level language without sacrificing performance. This could also open a route to formally verifying these implementations using frameworks such as [Hax](https://github.com/cryspen/hax) and [Aeneas](https://aeneasverif.github.io/), which currently target Rust and would need to be extended to support OxCaml.
 
-Avik is also investigating how to track sensitive information through programs. Together with the project with [Pramaana Labs](https://www.pramaanalabs.ai/), these efforts focus on expressing security requirements precisely and connecting them to implementations.
+Avik is also investigating how to track sensitive information through programs. Together with the [Pramaana Labs](https://www.pramaanalabs.ai/) collaboration, these efforts focus on expressing security requirements precisely and connecting them to implementations.
 
 ## Systems and Community
 
@@ -133,9 +137,9 @@ To investigate how new data sources might fit into that software, Smayan is prep
 
 The next opportunity to share the research and teaching work with developers is [IndiaFOSS](https://fossunited.org/indiafoss/2026), where FP Launchpad has [six talks and workshops accepted](/indiafoss-2026/). Alongside the OCaml workshop, I will speak about executable textbooks. In the Compilers, Programming Languages and Systems devroom:
 
-- Pragyansh will present **PythonBPF**, which he co-created to let developers write programs for the Linux kernel using a subset of Python. The talk covers new support for loops, custom functions, and more map types.
-- Durwasa will give **LGTM Is Not A Theorem**.
-- Former intern Anubhav Paul will introduce **formal verification through elementary arithmetic**.
+- Pragyansh will present **[PythonBPF](https://fossunited.org/c/indiafoss/2026/cfp/299lpkmuqh)**, which he co-created to let developers write programs for the Linux kernel using a subset of Python. The talk covers new support for loops, custom functions, and more map types.
+- Durwasa will give **[LGTM Is Not A Theorem](https://fossunited.org/c/indiafoss/2026/cfp/8cbv4mpi6o)**.
+- Former intern Anubhav Paul will introduce **[formal verification through elementary arithmetic](https://fossunited.org/c/indiafoss/2026/cfp/9qjtkvb2gi)**.
 - Navaneeth will present **[Benchmarking can be hard, here's why we're still creating a new one for OCaml](https://fossunited.org/c/indiafoss/2026/cfp/6aasju7noq)**, discussing the work on representative workload selection.
 
 The workshops take place on 25 September, ahead of the main conference on 26–27 September. See the [event programme](https://fossunited.org/indiafoss/2026) for the latest schedule. We are also sponsoring [SEGFAULT](https://segfault.compilertech.org/#tracks), a compiler and programming-languages hackathon with a functional-programming track, whose finale takes place alongside IICT in October.
@@ -144,7 +148,7 @@ FP Launchpad will host [**FUN OCaml on 25–26 January 2027**](https://fun-ocaml
 
 ## Looking ahead
 
-We will open the women's fellowship round soon. Over the next few months, we're looking forward to making progress on these projects and sharing what we learn. We hope to meet many of you at IndiaFOSS, IICT, the winter school on programming languages we're planning at IIT Madras in December, and FUN OCaml in January.
+We will open the women's fellowship round soon. Over the next few months, we look forward to making progress on these projects and sharing what we learn. We are also planning a winter school on programming languages at IIT Madras in December, with programme details to follow. We hope to meet many of you there, at IndiaFOSS and IICT, or at FUN OCaml in January.
 
 If you teach programming, try the [OCaml textbook](https://fplaunchpad.org/ocaml_nptel/) or reuse the [workshop material](https://github.com/fplaunchpad/indiafoss-2026-ocaml-workshop). We also welcome [FUN OCaml proposals](https://cfp.fun-ocaml.com/fun-ocaml-2027-bengaluru/cfp) by 30 September. To hear about future updates, fellowship openings, and events, [subscribe to our newsletter](mailto:contact@fplaunchpad.org?subject=Subscribe%20to%20Newsletter) by emailing contact@fplaunchpad.org with the subject “Subscribe to Newsletter”.
 

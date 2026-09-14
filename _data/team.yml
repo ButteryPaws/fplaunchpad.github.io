@@ -67,7 +67,7 @@
     - name: B Sanjeev Reddy
       photo: /assets/images/person-placeholder.svg
       designation: MS student (2025–), CSE IIT Madras
-      bio: Integrating the MMTk memory management toolkit with the OCaml runtime.
+      bio: Selecting representative OCaml benchmark workloads using profiling data.
 
 - role: MTech Students
   members:
@@ -82,11 +82,6 @@
       photo: /assets/images/nandha-gopi-krishna.jpg
       designation: BTech student (UGRC, 2026), CSE IIT Madras
       bio: "Nandha is a Computer Science undergraduate at IIT Madras (2023 batch), with an interest in functional programming and formal methods."
-
-    - name: Pranav Ramesh
-      photo: /assets/images/pranav-ramesh.jpg
-      designation: BTech student (BTP, Spring 2026), CSE IIT Madras
-      bio: Intersection of formal methods and large language models.
 
     - name: Aadi Srivastava
       photo: /assets/images/aadi-srivastava.jpg
@@ -123,12 +118,12 @@
       designation: Post-Baccalaureate Fellow, FP Launchpad · Ashoka University
       bio: "PL for social good. Automata Theory, Algebra, and Logic."
 
-    - name: Dhruv
+    - name: Dhruv Piyush Rambhia
       photo: /assets/images/dhruv.jpg
       designation: Post-Baccalaureate Fellow, FP Launchpad · IIT Bombay (Jul 2026 – Mar 2027)
       bio: "Ex-Finance Bro rediscovering my love for all things geeky. Currently exploring my next gig at FP Launchpad. Broadly interested in Security, PL and low-level stuff."
 
-    - name: Kaustubh
+    - name: Kaustubh Maske Patil
       photo: /assets/images/kaustubh.jpg
       website: https://kaustubh.page
       designation: Post-Baccalaureate Fellow, FP Launchpad · BITS Pilani (Aug 2026 – Mar 2027)
@@ -142,6 +137,11 @@
 
 - role: Interns
   members:
+    - name: Anirudh Sudhir
+      photo: /assets/images/person-placeholder.svg
+      designation: Intern, FP Launchpad (Aug – Dec 2026)
+      bio: Investigating high-performance cryptographic implementations in OxCaml.
+
     - name: Chaitanya Agarwal
       photo: /assets/images/chaitanya-agarwal.jpg
       designation: Intern, FP Launchpad · NYU (May 2026 – TBD)
@@ -154,6 +154,11 @@
 
 - role: Alumni
   members:
+    - name: Pranav Ramesh
+      photo: /assets/images/pranav-ramesh.jpg
+      designation: BTech (2026), CSE IIT Madras
+      bio: Intersection of formal methods and large language models.
+
     - name: Sheera Shamsu
       photo: /assets/images/sheera-shamsu.png
       website: https://in.linkedin.com/in/sheera-shamsu-70377522
