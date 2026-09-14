@@ -16,13 +16,14 @@
 
     - name: Navaneeth Nambiar
       photo: /assets/images/navaneeth-nambiar.jpg
+      website: https://github.com/curche
       designation: Research Staff
       bio: Performance evaluation, benchmarking, and eBPF-based tooling for OCaml runtime analysis.
 
     - name: Vimala Soundarapandian
       photo: https://avatars.githubusercontent.com/u/59866854?v=4
       website: https://sites.google.com/view/vimala90/
-      designation: Research Staff, FP Launchpad
+      designation: Research Scientist, FP Launchpad
       bio: Formal verification of distributed systems; certified mergeable replicated data types; replication-aware linearizability.
 
     - name: Akhil Tulluri
@@ -49,11 +50,6 @@
       website: https://durwasa-chakraborty.github.io
       designation: PhD student (2025–), CSE IIT Madras
       bio: Programming languages, formal methods, data races, concurrent systems programming.
-
-    - name: Sheera Shamsu
-      photo: /assets/images/sheera-shamsu.png
-      designation: PhD student (2019–), CSE IIT Madras
-      bio: Formal verification of garbage collectors for OCaml.
 
     - name: Sai Venkata Krishnan
       photo: https://cystar.iitm.ac.in/wp-content/uploads/2024/11/inner_SaiVenkata.webp
@@ -158,6 +154,12 @@
 
 - role: Alumni
   members:
+    - name: Sheera Shamsu
+      photo: /assets/images/sheera-shamsu.png
+      website: https://in.linkedin.com/in/sheera-shamsu-70377522
+      designation: PhD (2026), CSE IIT Madras
+      bio: "Graduated in July 2026; continuing work on the implementation and formal verification of garbage collectors for OCaml."
+
     - name: Sagar Biswas
       photo: https://mrsagarbiswas.dpdns.org/Sagar_Biswas.jpeg
       website: https://mrsagarbiswas.dpdns.org/
