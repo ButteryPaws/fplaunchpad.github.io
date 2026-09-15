@@ -10,7 +10,7 @@ members:
     feed: https://kartiknagar.github.io/index.xml
   - name: Alina Banerjee
     site: https://blue-indus.in
-    feed: https://blue-indus.in/rss.xml
+    feed: https://www.blue-indus.in/rss.xml
   - name: Kaustubh M
     site: https://kaustubh.page
     feed: https://kaustubh.page/rss.xml
